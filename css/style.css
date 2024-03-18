@@ -10,11 +10,11 @@
   display: flex;
 }
 
-.boxed-header {
-  margin: 0 22rem 10rem 22rem;
+.boxed-big {
+  margin: 0 24rem 10rem 24rem;
 }
 
-.boxed-main {
+.boxed-small {
   margin: 10rem 28rem 10rem 28rem;
 }
 
@@ -39,6 +39,10 @@ ul {
 .square-big,
 .square-little {
   border: 2px dashed black;
+}
+.footer-column,
+footer {
+  border: 2px dashed white;
 }
 /********************* HEADER **********************/
 header {
@@ -115,7 +119,7 @@ h2 {
   margin-bottom: 4rem;
 }
 
-.boxed-main input {
+.boxed-small input {
   margin-bottom: 3rem;
 }
 
@@ -145,7 +149,7 @@ label {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: 2rem 0 1rem 0;
 }
 
@@ -258,7 +262,7 @@ h3 {
   background-color: #b4d0e7;
 }
 
-.big-row .boxed-main {
+.big-row .boxed-small {
   padding: 7rem 0;
   gap: 15rem;
   margin-top: 0;
@@ -302,9 +306,36 @@ h3 {
   display: none;
 }
 
-/* 
+/*  
 .question-txt:hover .hidden-txt {
   display: block;
 }
 */
+
 /********************* FOOTER **********************/
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .boxed-big {
+  margin-bottom: 0;
+  margin-top: 7rem;
+  gap: 5rem;
+  padding-bottom: 6rem;
+}
+
+.footer-column {
+  width: calc(100% / 5);
+  line-height: 2.2rem;
+}
+
+footer h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+footer hr {
+  width: 10%;
+  color: lightgray;
+}
