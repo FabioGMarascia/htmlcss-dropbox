@@ -3,12 +3,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body {
-  background-color: #222;
-  color: white;
+.flex {
+  display: flex;
+}
+
+.boxed {
+  margin: 0 10rem;
+}
+
+/* DEBUG */
+nav,
+nav div {
+  border: 2px dashed black;
 }
 /********************* HEADER **********************/
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.img-logo {
+  width: 6rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 1rem;
+}
+
+nav button {
+  padding: 0.2rem 0.5rem;
+  background-color: blue;
+  color: white;
+  border-style: none;
+}
+
 /********************** MAIN ***********************/
+
 /********************* FOOTER **********************/
