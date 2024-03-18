@@ -157,11 +157,11 @@ h3 {
   padding: 0.5rem 0;
 }
 
-.business-list i {
+.business-list .fa-check {
   color: #0061ff;
 }
 
-hr {
+.business-column-bottom hr {
   margin: 2.5rem 0;
   width: 3.5rem;
   color: lightgray;
@@ -283,4 +283,28 @@ hr {
   color: #61082b;
   margin: 0;
 }
+
+.question {
+  line-height: 5rem;
+}
+
+.question-txt {
+  width: 70%;
+}
+
+.question-icon {
+  width: 30%;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.hidden-txt {
+  display: none;
+}
+
+/* 
+.question-txt:hover .hidden-txt {
+  display: block;
+}
+*/
 /********************* FOOTER **********************/
