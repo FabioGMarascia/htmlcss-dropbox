@@ -11,19 +11,30 @@
 }
 
 .boxed {
-  margin: 0 10rem;
+  margin: 0 20rem;
 }
 
 /* DEBUG */
 nav,
-nav div {
+nav div,
+.boxed,
+.column-img,
+.column-txt {
   border: 2px dashed black;
 }
 /********************* HEADER **********************/
+header {
+  background-color: aquamarine;
+}
+
+/* NAVBAR */
 nav {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
 .img-logo {
@@ -36,11 +47,50 @@ nav a {
   padding: 0 1rem;
 }
 
-nav button {
-  padding: 0.2rem 0.5rem;
+header button {
+  padding: 0.4rem 0.6rem;
   background-color: blue;
   color: white;
   border-style: none;
+}
+
+/* JUMBO */
+h1 {
+  font-size: 3rem;
+}
+
+.jumbo {
+  padding-top: 6rem;
+}
+
+.jumbo-img {
+  width: 100%;
+  position: relative;
+  top: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+}
+
+.column-txt {
+  width: calc(100% / 3);
+  padding-top: 3rem;
+}
+
+.column-img {
+  width: calc((100% / 3) * 2);
+}
+
+.jumbo-bottom {
+  margin-top: 2rem;
+}
+
+.jumbo-button {
+  margin: 2.5rem 0;
+}
+
+.jumbo-icon {
+  font-size: 2rem;
+  position: relative;
+  top: 4rem;
 }
 
 /********************** MAIN ***********************/
