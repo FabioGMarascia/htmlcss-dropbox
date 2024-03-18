@@ -26,8 +26,8 @@ button {
 
 .btn {
   margin: 2rem 0;
-  width: 13rem;
-  height: 2.3rem;
+  width: 14rem;
+  height: 2.5rem;
 }
 
 ul {
@@ -76,7 +76,7 @@ nav a {
 }
 
 nav button {
-  padding: 0.4rem 0.8rem;
+  padding: 0.5rem 1.2rem;
 }
 
 /* JUMBO */
@@ -132,7 +132,7 @@ h2 {
 }
 
 .box-business {
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .column-business {
@@ -147,12 +147,13 @@ h2 {
 }
 
 .column-business-bottom {
-  padding: 0 1.5rem;
+  padding: 0 2rem;
+  min-height: 60rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  padding: 1rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .business-list {
@@ -171,9 +172,31 @@ hr {
 
 .row-business {
   width: 100%;
+  line-height: 1.5rem;
+  margin-top: 3rem;
 }
+
 .row-business-top {
   text-align: center;
   padding: 0.5rem;
 }
+
+.row-business-bottom {
+  padding: 0 2rem 2rem 2rem;
+  gap: 2rem;
+}
+
+.row-business-bottom-left {
+  width: calc((100% / 3) * 2);
+}
+
+.row-business-bottom-right {
+  width: calc(100% / 3);
+  text-align: right;
+}
+
+.row-business-bottom-left p {
+  margin-top: 3rem;
+}
+
 /********************* FOOTER **********************/
