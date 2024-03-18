@@ -19,7 +19,7 @@
 }
 
 button {
-  background-color: blue;
+  background-color: #0061ff;
   color: white;
   border-style: none;
 }
@@ -35,31 +35,21 @@ ul {
 }
 
 /* DEBUG */
-nav,
-nav div,
-.boxed-header,
-.boxed-main,
-.column-img,
-.column-txt,
-.box-bisiness,
-.column-business-top,
-.column-business-bottom,
-.row-business,
-.row-business-top,
-.row-business-bottom-left,
-.row-business-bottom-right {
+.square-box,
+.square-big,
+.square-little {
   border: 2px dashed black;
 }
 /********************* HEADER **********************/
 header {
-  background-color: aquamarine;
+  background-color: #b4d0e7;
 }
 
 /* NAVBAR */
 nav {
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
   position: fixed;
   background-color: white;
   width: 100%;
@@ -83,26 +73,27 @@ nav button {
 /* JUMBO */
 h1 {
   font-size: 4rem;
+  padding-top: 4rem;
 }
 
 .jumbo {
   padding-top: 6rem;
 }
 
-.jumbo-img {
+.jumbo-img img {
   width: 100%;
   position: relative;
   top: 2.5rem;
   box-shadow: 0.2rem 0.2rem 0.2rem gray;
 }
 
-.column-txt {
+.jumbo-txt {
   width: calc(100% / 3);
   padding-top: 2.5rem;
   position: relative;
 }
 
-.column-img {
+.jumbo-img {
   width: calc((100% / 3) * 2);
 }
 
@@ -121,14 +112,14 @@ h1 {
 /********************** MAIN ***********************/
 h2 {
   font-size: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .boxed-main input {
   margin-bottom: 3rem;
 }
 
-.radio-txt {
+label {
   padding: 0 3rem 0 0;
 }
 
@@ -138,13 +129,14 @@ h2 {
 
 .business-column {
   width: calc(100% / 3);
-  background-color: aqua;
   line-height: 1.5rem;
+  border: 1px solid gray;
 }
 
 .business-column-top {
   text-align: center;
   padding: 0.5rem;
+  border-bottom: 1px solid gray;
 }
 
 .business-column-bottom {
@@ -165,6 +157,10 @@ h3 {
   padding: 0.5rem 0;
 }
 
+.business-list i {
+  color: #0061ff;
+}
+
 hr {
   margin: 2.5rem 0;
   width: 3.5rem;
@@ -175,11 +171,13 @@ hr {
   width: 100%;
   line-height: 1.5rem;
   margin-top: 3rem;
+  border: 1px solid gray;
 }
 
 .business-row-top {
   text-align: center;
   padding: 0.5rem;
+  border-bottom: 1px solid gray;
 }
 
 .business-row-bottom {
@@ -212,6 +210,7 @@ hr {
 .partner-box-txt {
   width: calc(100% / 3);
 }
+
 .partner-img {
   width: 100%;
 }
@@ -222,5 +221,66 @@ hr {
   border: 1px solid black;
   margin: 2rem 0;
   padding: 0.6rem 1rem;
+}
+
+.card-box {
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.card {
+  width: calc((100% / 3) - (6rem / 3));
+}
+.card-top img {
+  width: 100%;
+}
+
+.title-h2 {
+  width: 70%;
+}
+
+.square-box {
+  width: 100%;
+  min-height: 35rem;
+}
+
+.square-big {
+  width: calc(100% / 3);
+  flex-wrap: wrap;
+}
+
+.square-little {
+  width: calc(100% / 2);
+  height: calc(100% / 2);
+}
+
+.big-row {
+  background-color: #b4d0e7;
+}
+
+.big-row .boxed-main {
+  padding: 7rem 0;
+  gap: 15rem;
+  margin-top: 0;
+}
+
+.big-row-txt {
+  width: calc((100% / 3) * 2);
+}
+
+.big-row-btn {
+  width: calc(100% / 3);
+  text-align: right;
+}
+
+.btn-white-2 {
+  background-color: white;
+  color: black;
+  padding: 0.6rem 2.5rem;
+}
+
+.big-row-txt h2 {
+  color: #61082b;
+  margin: 0;
 }
 /********************* FOOTER **********************/
