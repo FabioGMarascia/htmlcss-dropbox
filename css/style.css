@@ -302,6 +302,7 @@ li i {
 
 .design {
   background-color: #a2d39b;
+  border: 1rem solid #d1e9cd;
 }
 
 .arizona {
@@ -400,6 +401,10 @@ li i {
 
 .quest-answ-row:hover .answer {
   display: block;
+}
+
+.quest-answ-row:hover .fa-chevron-down {
+  transform: rotate(180deg);
 }
 
 /********************* FOOTER **********************/
