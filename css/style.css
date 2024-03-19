@@ -22,10 +22,24 @@
   margin: 0 24rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  padding: 2.5rem 0 1rem 0;
+}
+
 button {
   background-color: #0061ff;
   color: white;
   border-style: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .btn {
@@ -38,18 +52,12 @@ ul {
   list-style: none;
 }
 
-/* DEBUG */
-.square-box,
-.square-big,
-.square-little {
-  border: 2px dashed black;
-}
 /********************* HEADER **********************/
 header {
   background-color: #b4d0e7;
 }
 
-/* NAVBAR */
+/******* NAV *******/
 nav {
   justify-content: space-between;
   align-items: center;
@@ -57,12 +65,25 @@ nav {
   background-color: white;
   width: 100%;
   z-index: 10;
-  height: 4rem;
+  padding: 1rem 1.2rem;
+}
+
+.nav-center {
+  text-align: left;
+  width: 60%;
+}
+
+.nav-left {
+  width: 8%;
+}
+
+.nav-right {
+  width: 32%;
+  text-align: right;
 }
 
 .img-logo {
-  width: 6rem;
-  padding-left: 1.2rem;
+  width: 8rem;
 }
 
 nav a {
@@ -82,26 +103,29 @@ nav input {
   border-style: none;
 }
 
-/* JUMBO */
+nav input:hover {
+  cursor: pointer;
+}
+
+/******* JUMBO *******/
 h1 {
   font-size: 4rem;
-  padding-top: 4rem;
+  padding-top: 3.8rem;
 }
 
 .jumbo {
-  padding-top: 6rem;
+  padding-top: 5.5rem;
 }
 
 .jumbo-img img {
   width: 100%;
   position: relative;
-  top: 2.5rem;
-  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+  top: 4rem;
 }
 
 .jumbo-txt {
   width: calc(100% / 3);
-  padding-top: 2.5rem;
+  padding-top: 4rem;
   position: relative;
 }
 
@@ -111,22 +135,19 @@ h1 {
 
 .jumbo-bottom {
   margin-top: 2rem;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .jumbo-icon {
   font-size: 3rem;
   position: absolute;
   bottom: 0;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 /********************** MAIN ***********************/
-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 4rem;
-}
 
+/******* BUSINESS SECTION *******/
 .boxed-small input {
   margin-bottom: 3rem;
 }
@@ -157,11 +178,6 @@ label {
   min-height: 60rem;
 }
 
-h3 {
-  font-size: 1.6rem;
-  padding: 2rem 0 1rem 0;
-}
-
 .business-list {
   margin: 2rem 0 0 0;
 }
@@ -169,6 +185,7 @@ h3 {
 li i {
   margin-right: 0.5rem;
 }
+
 .business-list li {
   padding: 0.5rem 0;
   display: flex;
@@ -215,6 +232,7 @@ li i {
   margin-top: 3rem;
 }
 
+/******* PARTNER SECTION *******/
 .partner-box {
   width: 100%;
   gap: 3rem;
@@ -240,6 +258,7 @@ li i {
   padding: 0.6rem 1rem;
 }
 
+/******* CARD SECTION *******/
 .card-box {
   flex-wrap: wrap;
   gap: 3rem;
@@ -249,6 +268,7 @@ li i {
   width: calc((100% / 3) - (6rem / 3));
   min-width: 150px;
 }
+
 .card-top img {
   width: 100%;
 }
@@ -257,6 +277,7 @@ li i {
   width: 70%;
 }
 
+/******* SQUARE SECTION *******/
 .square-box {
   width: 100%;
   height: calc(100vh / 1.5);
@@ -270,8 +291,63 @@ li i {
 .square-little {
   width: calc(100% / 2);
   height: calc(100% / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.square-box img {
+  width: 50%;
+}
+
+.design {
+  background-color: #a2d39b;
+}
+
+.arizona {
+  background-color: #61082b;
+}
+
+.florida {
+  background-color: #0093ce;
+}
+
+.topps {
+  background-color: #ff1c1c;
+}
+
+.world {
+  background-color: #d5001f;
+}
+
+.corp {
+  background-color: #b4d0e7;
+}
+
+.planet {
+  background-color: #0d2481;
+}
+
+.channel {
+  background-color: #ffd830;
+}
+
+.square-central {
+  background-color: #f5f5f5;
+  padding: 3.5rem;
+}
+
+.square-central hr {
+  width: 7rem;
+  color: whitesmoke;
+  margin: 2.5rem 0;
+}
+
+.square-central-txt {
+  margin-bottom: 3rem;
+}
+
+/******* BIG-ROW SECTION *******/
 .big-row {
   background-color: #b4d0e7;
 }
@@ -302,6 +378,7 @@ li i {
   margin: 0;
 }
 
+/******* QUESTION SECTION *******/
 .question {
   line-height: 5rem;
 }
@@ -333,7 +410,16 @@ footer {
 
 .footer-top {
   gap: 5rem;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-bottom {
+  padding-bottom: 3.5rem;
+}
+
+.footer-bottom hr {
+  width: 8rem;
+  margin: 3rem 0;
 }
 
 .footer-column {
@@ -344,13 +430,4 @@ footer {
 footer h4 {
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
-}
-
-.footer-bottom hr {
-  width: 8rem;
-  margin: 3rem 0;
-}
-
-.footer-bottom {
-  padding-bottom: 3.5rem;
 }
