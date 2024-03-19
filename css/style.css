@@ -411,7 +411,6 @@ li i {
 .quest-answ-row:hover .fa-chevron-down {
   transform: rotate(180deg);
 }
-
 /********************* FOOTER **********************/
 footer {
   background-color: black;
