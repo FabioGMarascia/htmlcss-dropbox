@@ -138,6 +138,7 @@ h1 {
 }
 
 .jumbo-icon {
+  color: black;
   font-size: 3rem;
   position: absolute;
   bottom: 0;
@@ -147,6 +148,10 @@ h1 {
 /********************** MAIN ***********************/
 
 /******* BUSINESS SECTION *******/
+#first-section {
+  padding-top: 5rem;
+}
+
 .boxed-small input {
   margin-bottom: 3rem;
 }
