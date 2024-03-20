@@ -312,7 +312,7 @@ li i {
 }
 
 .arizona:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .florida {
@@ -320,7 +320,7 @@ li i {
 }
 
 .florida:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .topps {
@@ -328,7 +328,7 @@ li i {
 }
 
 .topps:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .world {
@@ -336,7 +336,7 @@ li i {
 }
 
 .world:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .corp {
@@ -344,7 +344,7 @@ li i {
 }
 
 .corp:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .planet {
@@ -352,7 +352,7 @@ li i {
 }
 
 .planet:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .channel {
@@ -360,7 +360,7 @@ li i {
 }
 
 .channel:hover {
-  border: 1rem solid #d1e9cd;
+  border: 1rem solid rgba(114, 114, 114, 0.32);
 }
 
 .square-central {
