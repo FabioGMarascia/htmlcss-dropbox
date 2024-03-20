@@ -302,6 +302,9 @@ li i {
 
 .design {
   background-color: #a2d39b;
+}
+
+.design:hover {
   border: 1rem solid #d1e9cd;
 }
 
@@ -309,28 +312,56 @@ li i {
   background-color: #61082b;
 }
 
+.arizona:hover {
+  border: 1rem solid #d1e9cd;
+}
+
 .florida {
   background-color: #0093ce;
+}
+
+.florida:hover {
+  border: 1rem solid #d1e9cd;
 }
 
 .topps {
   background-color: #ff1c1c;
 }
 
+.topps:hover {
+  border: 1rem solid #d1e9cd;
+}
+
 .world {
   background-color: #d5001f;
+}
+
+.world:hover {
+  border: 1rem solid #d1e9cd;
 }
 
 .corp {
   background-color: #b4d0e7;
 }
 
+.corp:hover {
+  border: 1rem solid #d1e9cd;
+}
+
 .planet {
   background-color: #0d2481;
 }
 
+.planet:hover {
+  border: 1rem solid #d1e9cd;
+}
+
 .channel {
   background-color: #ffd830;
+}
+
+.channel:hover {
+  border: 1rem solid #d1e9cd;
 }
 
 .square-central {
