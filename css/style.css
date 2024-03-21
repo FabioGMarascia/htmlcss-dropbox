@@ -432,14 +432,12 @@ li i {
 .answer {
   opacity: 0;
   position: absolute;
-  visibility: hidden;
   padding-bottom: 1.5rem;
 }
 
 .quest-answ-row:hover .answer {
   opacity: 1;
   position: relative;
-  visibility: visible;
   transition-duration: 2s;
 }
 
