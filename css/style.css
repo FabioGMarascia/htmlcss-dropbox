@@ -11,15 +11,11 @@
 }
 
 .boxed-big {
-  margin: 0 22rem 10rem 22rem;
+  margin: 0 22rem;
 }
 
 .boxed-small {
   margin: 10rem 28rem 10rem 28rem;
-}
-
-.boxed-footer {
-  margin: 0 22rem;
 }
 
 h2 {
